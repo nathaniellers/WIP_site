@@ -1,0 +1,25 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@font-face {
+  font-family: Poppins;
+  src: url(./fonts/poppins.ttf)
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(./fonts/Montserrat.ttf);
+}
+.App{
+  width: 50%;
+  margin: 10rem auto;
+  height: 570px
+}
+body{
+  font-family: 'Montserrat';
+  scroll-behavior: smooth;
+  font-size: 11px;
+  margin:0
+}
+.carousel .thumbs-wrapper{
+  display: none !important;
+}
